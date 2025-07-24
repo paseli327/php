@@ -1,0 +1,31 @@
+ .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding-bottom: 120px;
+    justify-content: center;
+    }
+    .product img {
+      width: 320px;
+      height: 320px;
+      object-fit: cover;
+    }
+    .product-content {
+      padding: 10px;
+    }
+    .product a {
+      font-size: 24px;
+      margin-top: 20px;
+    }
+    .product p {
+      font-size: 14px;
+      color: #333;
+    }
+    .product .price {
+      margin: 20px 0 20px 0;
+      font-size: 24px;
+      color: #d43f00;
+    }
+    .product {
+      width: 320px;
+    }
